@@ -85,12 +85,12 @@ You should be careful when installing third party web servers such as MySQL or N
 
 This project use the following ports :
 
-| Server     | Port |
-|------------|------|
-| MySQL      | 8989 |
-| PHPMyAdmin | 8080 |
-| Nginx      | 8000 |
-| Nginx SSL  | 3000 |
+| Server     | Original Port | New Port |
+|------------|------|-------|
+| MySQL      | 8989 | 8989 |
+| PHPMyAdmin | 8080 | 9008 |
+| Nginx      | 8000 | 9080 |
+| Nginx SSL  | 3000 | 9043 |
 
 ___
 
@@ -215,9 +215,9 @@ ___
 
 3. Open your favorite browser :
 
-    * [http://localhost:8000](http://localhost:8000/)
-    * [https://localhost:3000](https://localhost:3000/) ([HTTPS](#configure-nginx-with-ssl-certificates) not configured by default)
-    * [http://localhost:8080](http://localhost:8080/) PHPMyAdmin (username: dev, password: dev)
+    * [http://localhost:9080](http://localhost:9080/)
+    * [https://localhost:9043](https://localhost:9043/) ([HTTPS](#configure-nginx-with-ssl-certificates) not configured by default)
+    * [http://localhost:9008](http://localhost:9008/) PHPMyAdmin (username: dev, password: dev)
 
 4. Stop and clear services
 
