@@ -1,7 +1,10 @@
 # Nginx PHP MySQL [![Build Status](https://travis-ci.org/nanoninja/docker-nginx-php-mysql.svg?branch=master)](https://travis-ci.org/nanoninja/docker-nginx-php-mysql) [![GitHub version](https://badge.fury.io/gh/nanoninja%2Fdocker-nginx-php-mysql.svg)](https://badge.fury.io/gh/nanoninja%2Fdocker-nginx-php-mysql)
 
 Docker running Nginx, PHP-FPM, Composer, MySQL and PHPMyAdmin.
-Forked from the original. https://github.com/andfinally/docker-nginx-php-mysql
+
+https://github.com/andfinally/docker-nginx-php-mysql
+
+Forked from https://github.com/nanoninja/docker-nginx-php-mysql.
 
 ## Overview
 
@@ -30,7 +33,7 @@ Forked from the original. https://github.com/andfinally/docker-nginx-php-mysql
     When developing, you can use `Makefile` for doing recurrent operations.
 
 7. [Use Docker Commands](#use-docker-commands)
-
+cd 
     When running, you can use docker commands for doing recurrent operations.
 
 ___
